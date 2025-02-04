@@ -3,6 +3,14 @@
 @tailwind utilities;
 
 .fondo{
-  background-image: url("/fondo2.jpg");
+  background-image: url("/fondo4.jpg");
   
+}
+
+button {
+  transition: transform 0.5s ease-out;
+}
+
+main {
+  overflow: hidden !important; /* Prevenir scrollbars */
 }
